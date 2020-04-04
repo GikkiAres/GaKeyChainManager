@@ -1,0 +1,410 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC1B85792438A655002C5677 /* ItemAddController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1B85772438A655002C5677 /* ItemAddController.m */; };
+		DC1B857A2438A655002C5677 /* ItemAddController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC1B85782438A655002C5677 /* ItemAddController.xib */; };
+		DC1B857F2438D4AE002C5677 /* GaKeyChainItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DC1B857D2438D4AE002C5677 /* GaKeyChainItem.m */; };
+		DC33077F2436DB46005E215E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC33077E2436DB46005E215E /* AppDelegate.m */; };
+		DC3307822436DB46005E215E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC3307812436DB46005E215E /* SceneDelegate.m */; };
+		DC33078A2436DB49005E215E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC3307892436DB49005E215E /* Assets.xcassets */; };
+		DC33078D2436DB49005E215E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC33078B2436DB49005E215E /* LaunchScreen.storyboard */; };
+		DC3307902436DB49005E215E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC33078F2436DB49005E215E /* main.m */; };
+		DC8EB67B2436DFF400C35D88 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8EB6782436DFF400C35D88 /* HomeViewController.m */; };
+		DC8EB67C2436DFF400C35D88 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DC8EB6792436DFF400C35D88 /* HomeViewController.xib */; };
+		DC8EB6BD2438882300C35D88 /* GaKeyChainUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = DC8EB6BC2438882300C35D88 /* GaKeyChainUtility.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DC3307BD2436DB4B005E215E /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DC1B85762438A655002C5677 /* ItemAddController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemAddController.h; sourceTree = "<group>"; };
+		DC1B85772438A655002C5677 /* ItemAddController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemAddController.m; sourceTree = "<group>"; };
+		DC1B85782438A655002C5677 /* ItemAddController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemAddController.xib; sourceTree = "<group>"; };
+		DC1B857B2438C2E5002C5677 /* GaKeyChainManager.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GaKeyChainManager.entitlements; sourceTree = "<group>"; };
+		DC1B857D2438D4AE002C5677 /* GaKeyChainItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GaKeyChainItem.m; sourceTree = "<group>"; };
+		DC1B857E2438D4AE002C5677 /* GaKeyChainItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GaKeyChainItem.h; sourceTree = "<group>"; };
+		DC33077A2436DB46005E215E /* GaKeyChainManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GaKeyChainManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC33077D2436DB46005E215E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DC33077E2436DB46005E215E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DC3307802436DB46005E215E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		DC3307812436DB46005E215E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		DC3307892436DB49005E215E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC33078C2436DB49005E215E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC33078E2436DB49005E215E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC33078F2436DB49005E215E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DC8EB6782436DFF400C35D88 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		DC8EB6792436DFF400C35D88 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		DC8EB67A2436DFF400C35D88 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		DC8EB6BB2438882300C35D88 /* GaKeyChainUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GaKeyChainUtility.h; sourceTree = "<group>"; };
+		DC8EB6BC2438882300C35D88 /* GaKeyChainUtility.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GaKeyChainUtility.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC3307772436DB46005E215E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC1B85752438A639002C5677 /* ItemAddController */ = {
+			isa = PBXGroup;
+			children = (
+				DC1B85762438A655002C5677 /* ItemAddController.h */,
+				DC1B85772438A655002C5677 /* ItemAddController.m */,
+				DC1B85782438A655002C5677 /* ItemAddController.xib */,
+			);
+			path = ItemAddController;
+			sourceTree = "<group>";
+		};
+		DC1B857C2438D4AE002C5677 /* GaKeyChainItem */ = {
+			isa = PBXGroup;
+			children = (
+				DC1B857D2438D4AE002C5677 /* GaKeyChainItem.m */,
+				DC1B857E2438D4AE002C5677 /* GaKeyChainItem.h */,
+			);
+			path = GaKeyChainItem;
+			sourceTree = "<group>";
+		};
+		DC3307712436DB46005E215E = {
+			isa = PBXGroup;
+			children = (
+				DC33077C2436DB46005E215E /* GaKeyChainManager */,
+				DC33077B2436DB46005E215E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC33077B2436DB46005E215E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC33077A2436DB46005E215E /* GaKeyChainManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC33077C2436DB46005E215E /* GaKeyChainManager */ = {
+			isa = PBXGroup;
+			children = (
+				DC1B857B2438C2E5002C5677 /* GaKeyChainManager.entitlements */,
+				DC1B85752438A639002C5677 /* ItemAddController */,
+				DC1B857C2438D4AE002C5677 /* GaKeyChainItem */,
+				DC8EB6BA2438881300C35D88 /* GaKeyChainUtility */,
+				DC8EB6772436DFF400C35D88 /* HomeViewController_0.0.0_Master */,
+				DC33077D2436DB46005E215E /* AppDelegate.h */,
+				DC33077E2436DB46005E215E /* AppDelegate.m */,
+				DC3307802436DB46005E215E /* SceneDelegate.h */,
+				DC3307812436DB46005E215E /* SceneDelegate.m */,
+				DC3307892436DB49005E215E /* Assets.xcassets */,
+				DC33078B2436DB49005E215E /* LaunchScreen.storyboard */,
+				DC33078E2436DB49005E215E /* Info.plist */,
+				DC33078F2436DB49005E215E /* main.m */,
+			);
+			path = GaKeyChainManager;
+			sourceTree = "<group>";
+		};
+		DC8EB6772436DFF400C35D88 /* HomeViewController_0.0.0_Master */ = {
+			isa = PBXGroup;
+			children = (
+				DC8EB67A2436DFF400C35D88 /* HomeViewController.h */,
+				DC8EB6782436DFF400C35D88 /* HomeViewController.m */,
+				DC8EB6792436DFF400C35D88 /* HomeViewController.xib */,
+			);
+			path = HomeViewController_0.0.0_Master;
+			sourceTree = "<group>";
+		};
+		DC8EB6BA2438881300C35D88 /* GaKeyChainUtility */ = {
+			isa = PBXGroup;
+			children = (
+				DC8EB6BB2438882300C35D88 /* GaKeyChainUtility.h */,
+				DC8EB6BC2438882300C35D88 /* GaKeyChainUtility.m */,
+			);
+			path = GaKeyChainUtility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC3307792436DB46005E215E /* GaKeyChainManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC3307BE2436DB4B005E215E /* Build configuration list for PBXNativeTarget "GaKeyChainManager" */;
+			buildPhases = (
+				DC3307762436DB46005E215E /* Sources */,
+				DC3307772436DB46005E215E /* Frameworks */,
+				DC3307782436DB46005E215E /* Resources */,
+				DC3307BD2436DB4B005E215E /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GaKeyChainManager;
+			productName = DeviceId;
+			productReference = DC33077A2436DB46005E215E /* GaKeyChainManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC3307722436DB46005E215E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = TinyWind;
+				TargetAttributes = {
+					DC3307792436DB46005E215E = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = DC3307752436DB46005E215E /* Build configuration list for PBXProject "GaKeyChainManager" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC3307712436DB46005E215E;
+			productRefGroup = DC33077B2436DB46005E215E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC3307792436DB46005E215E /* GaKeyChainManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC3307782436DB46005E215E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC33078D2436DB49005E215E /* LaunchScreen.storyboard in Resources */,
+				DC1B857A2438A655002C5677 /* ItemAddController.xib in Resources */,
+				DC33078A2436DB49005E215E /* Assets.xcassets in Resources */,
+				DC8EB67C2436DFF400C35D88 /* HomeViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC3307762436DB46005E215E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC1B85792438A655002C5677 /* ItemAddController.m in Sources */,
+				DC33077F2436DB46005E215E /* AppDelegate.m in Sources */,
+				DC3307902436DB49005E215E /* main.m in Sources */,
+				DC8EB67B2436DFF400C35D88 /* HomeViewController.m in Sources */,
+				DC8EB6BD2438882300C35D88 /* GaKeyChainUtility.m in Sources */,
+				DC1B857F2438D4AE002C5677 /* GaKeyChainItem.m in Sources */,
+				DC3307822436DB46005E215E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC33078B2436DB49005E215E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC33078C2436DB49005E215E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC3307B42436DB4B005E215E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DC3307B52436DB4B005E215E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC3307BF2436DB4B005E215E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GaKeyChainManager/GaKeyChainManager.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54H69Z4ERV;
+				INFOPLIST_FILE = GaKeyChainManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinywind.GaKeyChainManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC3307C02436DB4B005E215E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = GaKeyChainManager/GaKeyChainManager.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 54H69Z4ERV;
+				INFOPLIST_FILE = GaKeyChainManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tinywind.GaKeyChainManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC3307752436DB46005E215E /* Build configuration list for PBXProject "GaKeyChainManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3307B42436DB4B005E215E /* Debug */,
+				DC3307B52436DB4B005E215E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC3307BE2436DB4B005E215E /* Build configuration list for PBXNativeTarget "GaKeyChainManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC3307BF2436DB4B005E215E /* Debug */,
+				DC3307C02436DB4B005E215E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DC3307722436DB46005E215E /* Project object */;
+}
